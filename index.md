@@ -6,7 +6,16 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### PGD Adversarial Examples
 Here are the PGD adversarial Eg generated as described in the paper 
-[Link](/pgd1.wav)
+[0](/pgd_wav/0.wav)
+[3](/pgd_wav/5.wav)
+[5](/pgd_wav/5.wav)
+[6](/pgd_wav/6.wav)
+[7](/pgd_wav/7.wav)
+[8](/pgd_wav/8.wav)
+[img0] (/pgd_mel_visual/0.png)
+[img1] (/pgd_mel_visual/1.png)
+[img2] (/pgd_mel_visual/2.png)
+[img2] (/pgd_mel_visual/3.png)
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
