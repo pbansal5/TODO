@@ -1,41 +1,3 @@
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Audio samples from "Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions"</title>
-    <link rel="stylesheet" type="text/css" href="../../stylesheet.css"/>
-    <link rel="shortcut icon" href="../../images/taco.png">
-  </head>
-  <body>
-    <article>
-      <header>
-        <h1>Audio samples from "Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions"</h1>
-      </header>
-    </article>
-
-    <div><b>Paper:</b> <a href="https://arxiv.org/abs/1712.05884">arXiv</a></div>
-    <div><b>Authors:</b> Jonathan Shen, Ruoming Pang, Ron J. Weiss, Mike Schuster, Navdeep Jaitly, Zongheng Yang, Zhifeng Chen, Yu Zhang, Yuxuan Wang, RJ Skerry-Ryan, Rif A. Saurous, Yannis Agiomyrgiannakis, Yonghui Wu</div>
-    <div><b>Abstract:</b> This paper describes Tacotron 2, a neural network architecture for
-      speech synthesis directly from text. The system is composed of
-      a recurrent sequence-to-sequence feature prediction network that
-      maps character embeddings to mel-scale spectrograms, followed by
-      a modified WaveNet model acting as a vocoder to synthesize timedomain
-      waveforms from those spectrograms. Our model achieves a
-      mean opinion score (MOS) of 4.53 comparable to a MOS of 4.58 for
-      professionally recorded speech. To validate our design choices, we
-      present ablation studies of key components of our system and evaluate
-      the impact of using mel spectrograms as the input to WaveNet instead
-      of linguistic, duration, and F0 features. We further demonstrate
-      that using a compact acoustic intermediate representation enables
-      significant simplification of the WaveNet architecture.
-    </div>
-
-    <div><br/>All of the below phrases are unseen by Tacotron 2 during training. <a href="../../index.html">Click here for more from the Tacotron team.</a></div>
-
-    <div>
-      <h3>Here are some audio advesarial examples</h3>
-
-      The audio on the left is the standard audio correctly classified by the model. The audio on the left are adversarial with the transcriptions mentioned. 
-      <table>
 
         <tr><td class="transcript">Right</td><td class="transcript">Five</td></tr>
         <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_std_5_6_Right_Five.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_adv_5_6_Right_Five.wav"></audio></td></tr>
@@ -150,10 +112,3 @@
 
         <tr><td class="transcript">Four</td><td class="transcript">Zero</td></tr>
         <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_std_7_8_Four_Zero.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_adv_7_8_Four_Zero.wav"></audio></td></tr>
-
-
-      </table>
-    </div>
-
-  </body>
-</html>
