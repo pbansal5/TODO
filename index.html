@@ -1,0 +1,274 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Audio samples from "Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions"</title>
+    <link rel="stylesheet" type="text/css" href="../../stylesheet.css"/>
+    <link rel="shortcut icon" href="../../images/taco.png">
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Audio samples from "Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions"</h1>
+      </header>
+    </article>
+
+    <div><b>Paper:</b> <a href="https://arxiv.org/abs/1712.05884">arXiv</a></div>
+    <div><b>Authors:</b> Jonathan Shen, Ruoming Pang, Ron J. Weiss, Mike Schuster, Navdeep Jaitly, Zongheng Yang, Zhifeng Chen, Yu Zhang, Yuxuan Wang, RJ Skerry-Ryan, Rif A. Saurous, Yannis Agiomyrgiannakis, Yonghui Wu</div>
+    <div><b>Abstract:</b> This paper describes Tacotron 2, a neural network architecture for
+      speech synthesis directly from text. The system is composed of
+      a recurrent sequence-to-sequence feature prediction network that
+      maps character embeddings to mel-scale spectrograms, followed by
+      a modified WaveNet model acting as a vocoder to synthesize timedomain
+      waveforms from those spectrograms. Our model achieves a
+      mean opinion score (MOS) of 4.53 comparable to a MOS of 4.58 for
+      professionally recorded speech. To validate our design choices, we
+      present ablation studies of key components of our system and evaluate
+      the impact of using mel spectrograms as the input to WaveNet instead
+      of linguistic, duration, and F0 features. We further demonstrate
+      that using a compact acoustic intermediate representation enables
+      significant simplification of the WaveNet architecture.
+    </div>
+
+    <div><br/>All of the below phrases are unseen by Tacotron 2 during training. <a href="../../index.html">Click here for more from the Tacotron team.</a></div>
+
+    <div>
+      <h3>Here are some audio advesarial examples</h3>
+
+      The audio on the left is the standard audio correctly classified by the model. The audio on the left are adversarial with the transcriptions mentioned. 
+      <table>
+
+        <tr><td class="transcript">Right</td><td class="transcript">Five</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_std_5_6_Right_Five.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_adv_5_6_Right_Five.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Right</td><td class="transcript">Nine</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_std_5_0_Right_Nine.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_adv_5_0_Right_Nine.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Right</td><td class="transcript">Eight</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_std_6_5_Right_Eight.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_adv_6_5_Right_Eight.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Right</td><td class="transcript">Eight</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_std_6_5_Right_Eight.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_adv_6_5_Right_Eight.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Right</td><td class="transcript">Five</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_std_5_6_Right_Five.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_adv_5_6_Right_Five.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Right</td><td class="transcript">Nine</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_std_5_0_Right_Nine.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/right/audio_adv_5_0_Right_Nine.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Eight</td><td class="transcript">Up</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/eight/audio_std_9_0_Eight_Up.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/eight/audio_adv_9_0_Eight_Up.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Eight</td><td class="transcript">Right</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/eight/audio_std_8_7_Eight_Right.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/eight/audio_adv_8_7_Eight_Right.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Eight</td><td class="transcript">Up</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/eight/audio_std_9_0_Eight_Up.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/eight/audio_adv_9_0_Eight_Up.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Eight</td><td class="transcript">Right</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/eight/audio_std_8_7_Eight_Right.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/eight/audio_adv_8_7_Eight_Right.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Eight</td><td class="transcript">Six</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/eight/audio_std_8_1_Eight_Six.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/eight/audio_adv_8_1_Eight_Six.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Eight</td><td class="transcript">Six</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/eight/audio_std_8_1_Eight_Six.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/eight/audio_adv_8_1_Eight_Six.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Go</td><td class="transcript">On</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/go/audio_std_10_7_Go_On.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/go/audio_adv_10_7_Go_On.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Go</td><td class="transcript">Four</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/go/audio_std_9_6_Go_Four.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/go/audio_adv_9_6_Go_Four.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Go</td><td class="transcript">Up</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/go/audio_std_8_6_Go_Up.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/go/audio_adv_8_6_Go_Up.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Go</td><td class="transcript">On</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/go/audio_std_10_7_Go_On.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/go/audio_adv_10_7_Go_On.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Go</td><td class="transcript">Up</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/go/audio_std_8_6_Go_Up.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/go/audio_adv_8_6_Go_Up.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Go</td><td class="transcript">Four</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/go/audio_std_9_6_Go_Four.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/go/audio_adv_9_6_Go_Four.wav"></audio></td></tr>
+
+        <tr><td class="transcript">No</td><td class="transcript">Stop</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/no/audio_std_5_2_No_Stop.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/no/audio_adv_5_2_No_Stop.wav"></audio></td></tr>
+
+        <tr><td class="transcript">No</td><td class="transcript">Four</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/no/audio_std_2_0_No_Four.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/no/audio_adv_2_0_No_Four.wav"></audio></td></tr>
+
+        <tr><td class="transcript">No</td><td class="transcript">Down</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/no/audio_std_10_0_No_Down.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/no/audio_adv_10_0_No_Down.wav"></audio></td></tr>
+
+        <tr><td class="transcript">No</td><td class="transcript">Four</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/no/audio_std_2_0_No_Four.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/no/audio_adv_2_0_No_Four.wav"></audio></td></tr>
+
+        <tr><td class="transcript">No</td><td class="transcript">Down</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/no/audio_std_10_0_No_Down.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/no/audio_adv_10_0_No_Down.wav"></audio></td></tr>
+
+        <tr><td class="transcript">No</td><td class="transcript">Stop</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/no/audio_std_5_2_No_Stop.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/no/audio_adv_5_2_No_Stop.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Nine</td><td class="transcript">On</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/nine/audio_std_10_1_Nine_On.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/nine/audio_adv_10_1_Nine_On.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Nine</td><td class="transcript">On</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/nine/audio_std_10_1_Nine_On.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/nine/audio_adv_10_1_Nine_On.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Three</td><td class="transcript">Right</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/three/audio_std_10_1_Three_Right.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/three/audio_adv_10_1_Three_Right.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Three</td><td class="transcript">Eight</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/three/audio_std_8_6_Three_Eight.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/three/audio_adv_8_6_Three_Eight.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Three</td><td class="transcript">Right</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/three/audio_std_10_1_Three_Right.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/three/audio_adv_10_1_Three_Right.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Three</td><td class="transcript">Eight</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/three/audio_std_8_6_Three_Eight.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/three/audio_adv_8_6_Three_Eight.wav"></audio></td></tr>
+
+        <tr><td class="transcript">One</td><td class="transcript">Stop</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/one/audio_std_3_9_One_Stop.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/one/audio_adv_3_9_One_Stop.wav"></audio></td></tr>
+
+        <tr><td class="transcript">One</td><td class="transcript">On</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/one/audio_std_10_0_One_On.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/one/audio_adv_10_0_One_On.wav"></audio></td></tr>
+
+        <tr><td class="transcript">One</td><td class="transcript">Stop</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/one/audio_std_3_9_One_Stop.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/one/audio_adv_3_9_One_Stop.wav"></audio></td></tr>
+
+        <tr><td class="transcript">One</td><td class="transcript">On</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/one/audio_std_10_0_One_On.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/one/audio_adv_10_0_One_On.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Seven</td><td class="transcript">One</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/seven/audio_std_10_0_Seven_One.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/seven/audio_adv_10_0_Seven_One.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Seven</td><td class="transcript">On</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/seven/audio_std_9_1_Seven_On.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/seven/audio_adv_9_1_Seven_On.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Seven</td><td class="transcript">On</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/seven/audio_std_9_1_Seven_On.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/seven/audio_adv_9_1_Seven_On.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Seven</td><td class="transcript">Stop</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/seven/audio_std_9_7_Seven_Stop.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/seven/audio_adv_9_7_Seven_Stop.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Seven</td><td class="transcript">One</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/seven/audio_std_10_0_Seven_One.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/seven/audio_adv_10_0_Seven_One.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Seven</td><td class="transcript">Stop</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/seven/audio_std_9_7_Seven_Stop.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/seven/audio_adv_9_7_Seven_Stop.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Up</td><td class="transcript">Stop</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/up/audio_std_9_8_Up_Stop.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/up/audio_adv_9_8_Up_Stop.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Up</td><td class="transcript">Stop</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/up/audio_std_9_8_Up_Stop.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/up/audio_adv_9_8_Up_Stop.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Two</td><td class="transcript">Go</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/two/audio_std_9_5_Two_Go.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/two/audio_adv_9_5_Two_Go.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Two</td><td class="transcript">Zero</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/two/audio_std_8_5_Two_Zero.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/two/audio_adv_8_5_Two_Zero.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Two</td><td class="transcript">Zero</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/two/audio_std_8_5_Two_Zero.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/two/audio_adv_8_5_Two_Zero.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Two</td><td class="transcript">No</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/two/audio_std_8_6_Two_No.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/two/audio_adv_8_6_Two_No.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Two</td><td class="transcript">Go</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/two/audio_std_9_5_Two_Go.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/two/audio_adv_9_5_Two_Go.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Two</td><td class="transcript">No</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/two/audio_std_8_6_Two_No.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/two/audio_adv_8_6_Two_No.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Down</td><td class="transcript">Two</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/down/audio_std_9_9_Down_Two.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/down/audio_adv_9_9_Down_Two.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Down</td><td class="transcript">Go</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/down/audio_std_3_1_Down_Go.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/down/audio_adv_3_1_Down_Go.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Down</td><td class="transcript">No</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/down/audio_std_8_6_Down_No.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/down/audio_adv_8_6_Down_No.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Down</td><td class="transcript">Two</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/down/audio_std_9_9_Down_Two.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/down/audio_adv_9_9_Down_Two.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Down</td><td class="transcript">No</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/down/audio_std_8_6_Down_No.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/down/audio_adv_8_6_Down_No.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Down</td><td class="transcript">Go</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/down/audio_std_3_1_Down_Go.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/down/audio_adv_3_1_Down_Go.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Six</td><td class="transcript">Seven</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/six/audio_std_1_7_Six_Seven.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/six/audio_adv_1_7_Six_Seven.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Six</td><td class="transcript">Stop</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/six/audio_std_9_0_Six_Stop.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/six/audio_adv_9_0_Six_Stop.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Six</td><td class="transcript">Seven</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/six/audio_std_1_7_Six_Seven.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/six/audio_adv_1_7_Six_Seven.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Six</td><td class="transcript">Stop</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/six/audio_std_9_0_Six_Stop.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/six/audio_adv_9_0_Six_Stop.wav"></audio></td></tr>
+
+        <tr><td class="transcript">On</td><td class="transcript">Up</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/on/audio_std_10_5_On_Up.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/on/audio_adv_10_5_On_Up.wav"></audio></td></tr>
+
+        <tr><td class="transcript">On</td><td class="transcript">Five</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/on/audio_std_3_4_On_Five.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/on/audio_adv_3_4_On_Five.wav"></audio></td></tr>
+
+        <tr><td class="transcript">On</td><td class="transcript">Up</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/on/audio_std_10_5_On_Up.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/on/audio_adv_10_5_On_Up.wav"></audio></td></tr>
+
+        <tr><td class="transcript">On</td><td class="transcript">Five</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/on/audio_std_3_4_On_Five.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/on/audio_adv_3_4_On_Five.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Five</td><td class="transcript">Up</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/five/audio_std_10_8_Five_Up.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/five/audio_adv_10_8_Five_Up.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Five</td><td class="transcript">Up</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/five/audio_std_10_8_Five_Up.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/five/audio_adv_10_8_Five_Up.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Five</td><td class="transcript">On</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/five/audio_std_9_9_Five_On.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/five/audio_adv_9_9_Five_On.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Five</td><td class="transcript">On</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/five/audio_std_9_9_Five_On.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/five/audio_adv_9_9_Five_On.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Five</td><td class="transcript">Off</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/five/audio_std_10_3_Five_Off.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/five/audio_adv_10_3_Five_Off.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Five</td><td class="transcript">Off</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/five/audio_std_10_3_Five_Off.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/five/audio_adv_10_3_Five_Off.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Off</td><td class="transcript">Up</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/off/audio_std_3_7_Off_Up.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/off/audio_adv_3_7_Off_Up.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Off</td><td class="transcript">Up</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/off/audio_std_3_7_Off_Up.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/off/audio_adv_3_7_Off_Up.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Four</td><td class="transcript">Stop</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_std_9_4_Four_Stop.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_adv_9_4_Four_Stop.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Four</td><td class="transcript">Seven</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_std_10_0_Four_Seven.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_adv_10_0_Four_Seven.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Four</td><td class="transcript">Stop</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_std_9_4_Four_Stop.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_adv_9_4_Four_Stop.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Four</td><td class="transcript">Zero</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_std_7_8_Four_Zero.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_adv_7_8_Four_Zero.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Four</td><td class="transcript">Seven</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_std_10_0_Four_Seven.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_adv_10_0_Four_Seven.wav"></audio></td></tr>
+
+        <tr><td class="transcript">Four</td><td class="transcript">Zero</td></tr>
+        <tr><td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_std_7_8_Four_Zero.wav"></audio></td> <td><audio controls><source src="pgd_wav/postnet_adversaries/std_model/four/audio_adv_7_8_Four_Zero.wav"></audio></td></tr>
+
+
+
+      </table>
+    </div>
+
+  </body>
+</html>
